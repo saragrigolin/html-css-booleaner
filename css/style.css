@@ -8,6 +8,7 @@ body{
     background-color: black;
 }
 
+/* contenitore della pagina */
 .container{
     width: 900px;
     margin: auto;
@@ -15,68 +16,76 @@ body{
     background-color: white;
 }
 
+/* header */
 header {
     background-color: #4DA2FF;
     background-image: url(../img/pattern.png);
     background-size: 30%;
 }
 
+/* logo dell'header */
 #logo-header {
     margin-top: 30px;
     margin-left: 5px;
     width: 15%;
 }
 
-main{
+/* parte principale della pagina */
+.main{
     margin-left: 5px;
     margin-right: 5px;
 }
 
+/* titolo della pagina */
 h1{
     margin-top: 10px;
 }
 
+/* sezione "Scritto da" */
 #written-by{
     font-size: 85%;
     color: grey;
 }
 
+/* nome dell'autore dell'articolo */
 #author-name{
     color: #1aabe6;
 }
 
+/* data di pubblicazione dell'articolo */
 #date{
     font-size: 70%;
     color: grey;
 }
 
+/* immagini di Tim Berners-Lee */
 .tim{
     height: 300px;
     margin-top: 10px;
 }
 
+/* credits delle foto di Tim Berners-Lee */
 #credits-foto{
     font-size: 70%;
     margin-top: 2px;
 }
 
+/* porzione di testo evidenziata di giallo */
 .yellow-highlight{
     background-color:yellow;
 }
 
-p{
+/* margini di p, tabella e lista */
+p, table, ul{
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-ul{
-    margin: 20px;
-}
-
+/* bordi della tabella */
 table, td, th{
     border-collapse: collapse;
 }
 
+/* larghezza colonne tabella */
 #first-col, #second-col{
     width: 25%;
     text-align: left;
@@ -87,6 +96,7 @@ table, td, th{
     text-align: left;
 }
 
+/* colori di sfondo tabella */
 thead{
     background-color: #1aabe6;
     color: white;
@@ -101,6 +111,7 @@ thead{
     /* si poteva anche lasciare trasparente */
 }
 
+/* sezione "Potrebbero interessarti" */
 #interest{
     font-weight: bold;
     color: grey;
