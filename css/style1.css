@@ -87,10 +87,18 @@ span{
     background-color:yellow;
 }
 
-/* margini e font-weight di p, tabella e lista */
+/* font-weight di p, tabella e lista */
 p, table, ul{
     font-weight: 300;
+}
+
+/* margini p */
+p{
     margin-top: 20px;
+}
+
+ul{
+    margin: 20px;
 }
 
 /* bordi della tabella */
@@ -102,6 +110,7 @@ table, td, th{
 table{
     width: 90%;
     margin: auto;
+    margin-top: 20px;
 }
 
 /* intestazione della tabella */
