@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     width: 900px;
     margin: auto;
@@ -17,24 +23,53 @@ header {
 }
 
 h1{
-    margin-bottom: 1px;
+    margin-top: 10px;
 }
 
-#scritto-da{
+#written-by{
     font-size: 85%;
     color: grey;
 }
 
-#data{
+#date{
     font-size: 70%;
     color: grey;
 }
 
 .tim{
     height: 300px;
+    margin-top: 10px;
 }
 
 #credits-foto{
     font-size: 70%;
     margin-top: 2px;
+}
+
+.yellow-highlight{
+    background-color:yellow;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 20px;
+}
+
+#first-col, #second-col{
+    width: 25%;
+    text-align: left;
+}
+
+#third-col{
+    width: 50%;
+    text-align: left;
+}
+
+thead{
+    background-color: #1aabe6;
+    color: white;
 }
