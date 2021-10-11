@@ -1,6 +1,7 @@
 body{
     width: 900px;
     margin: auto;
+    font-size: 100%;
 }
 
 header {
@@ -13,4 +14,18 @@ header {
     margin-top: 30px;
     margin-left: 5px;
     width: 15%;
+}
+
+h1{
+    margin-bottom: 1px;
+}
+
+#scritto-da{
+    font-size: 85%;
+    color: grey;
+}
+
+#data{
+    font-size: 70%;
+    color: grey;
 }
