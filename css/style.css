@@ -75,9 +75,13 @@ h1{
     background-color:yellow;
 }
 
-/* margini di p, tabella e lista */
-p, table, ul{
+/* margini p */
+p{
     margin-top: 20px;
+}
+
+ul{
+    margin: 20px;
 }
 
 /* bordi della tabella */
