@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: rgb(184, 187, 185);
+}
+
+/* contenitore della pagina */
+.container{
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* header */
+header {
+    background-color: #4DA2FF;
+    background-image: url(../img/pattern.png);
+    background-size: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* logo dell'header */
+#logo-header {
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 15%;
+}
+
+/* parte principale della pagina */
+.main{
+    width: 95%;
+    margin: auto;
+
+}
+
+/* titolo della pagina */
+h1{
+    margin-top: 10px;
+}
+
+span{
+    font-weight: 400;
+}
+
+/* sezione "Scritto da" */
+#written-by{
+    font-size: 85%;
+    color: grey;
+}
+
+/* nome dell'autore dell'articolo */
+#author-name{
+    color: #1aabe6;
+}
+
+/* data di pubblicazione dell'articolo */
+#date{
+    font-size: 70%;
+    color: grey;
+}
+
+/* immagini di Tim Berners-Lee */
+.tim{
+    height: 300px;
+    margin-top: 10px;
+}
+
+/* credits delle foto di Tim Berners-Lee */
+#credits-foto{
+    font-size: 70%;
+    margin-top: 2px;
+}
+
+/* porzione di testo evidenziata di giallo */
+.yellow-highlight{
+    background-color:yellow;
+}
+
+/* margini e font-weight di p, tabella e lista */
+p, table, ul{
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/* bordi della tabella */
+table, td, th{
+    border-collapse: collapse;
+}
+
+/* posizionamento tabella */
+table{
+    width: 90%;
+    margin: auto;
+}
+
+/* intestazione della tabella */
+thead{
+    height: 30px;
+}
+
+/* larghezza colonne tabella  */
+#first-col, #second-col{
+    width: 25%;
+    text-align: left;
+}
+
+#third-col{
+    width: 50%;
+    text-align: left;
+}
+
+/* colori di sfondo tabella */
+thead{
+    background-color: #1aabe6;
+    color: white;
+}
+
+.first-row, .third-row{
+    background-color: #B2E6F3;
+}
+
+.second-row{
+    background-color: white; 
+    /* si poteva anche lasciare trasparente */
+}
+
+/* sezione "Potrebbero interessarti" */
+#interest{
+    font-weight: normal;
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.bottom-images{
+    position: relative;
+}
+
+.top-left-text {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
