@@ -59,6 +59,10 @@ ul{
     margin: 20px;
 }
 
+table, td, th{
+    border-collapse: collapse;
+}
+
 #first-col, #second-col{
     width: 25%;
     text-align: left;
@@ -72,4 +76,13 @@ ul{
 thead{
     background-color: #1aabe6;
     color: white;
+}
+
+.first-row, .third-row{
+    background-color: #B2E6F3;
+}
+
+.second-row{
+    background-color: white; 
+    /* si poteva anche lasciare trasparente */
 }
